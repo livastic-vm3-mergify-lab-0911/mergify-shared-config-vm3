@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: VM3-EXTENDS-PUBLIC-CANARY
+    conditions:
+      - label = vm3-extends-never
+    actions:
+      comment:
+        message: "VM3_EXTENDS_PRIVATE_CANARY"
