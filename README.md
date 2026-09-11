@@ -1,0 +1,1 @@
+# mergify-shared-config-vm3
