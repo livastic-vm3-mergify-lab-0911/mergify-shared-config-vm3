@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: vm3 readcache trusted source
+    conditions:
+      - title ~= ^VM3_READCACHE_
+    actions:
+      comment:
+        message: VM3_READCACHE_TRUSTED_SOURCE
